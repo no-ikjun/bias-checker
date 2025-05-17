@@ -39,7 +39,7 @@ export const ArticleCard: React.FC<Props> = ({
         }}
       />
       <div style={{ flex: 1 }}>
-        <h3 style={{ margin: 0 }}>{article.title}</h3>
+        <h3 style={{ margin: 0, color: "black" }}>{article.title}</h3>
         <p style={{ margin: "0.3rem 0", fontSize: "0.9rem", color: "#555" }}>
           {article.source}
         </p>
